@@ -4,7 +4,7 @@ title: 在 Windonws 7上使用 Docker Toolbox
 在 Windows 7 上使用 Docker Toolbox 运行 Docker 本地环境。
 
 ## 安装 scoop
-本文需要使用 scoop 完成软件的安装，假设你已经安装好 scoop，如果未安装请参考 https://scoop.sh/ 自行完成。
+本文需要使用 scoop 完成软件的安装，假设你已经安装好 scoop，如果未安装请参考 [https://scoop.sh/](https://scoop.sh/) 自行完成。
 
 ### 安装 Virtual Box
 
@@ -52,7 +52,7 @@ docker pull redis:3.2
 ```
 运行redis镜像
 ```
-docker run --name redis -p 6379:6379 -v /data:/data -d redis:3.2 redis-server --appendonly yes
+docker run --name redis -p 6379:6379 -v /data/redis:/data -d redis:3.2 redis-server --appendonly yes
 ```
-注意：这里的 -v /data:/data，需要你打开 Virtual Box，在 default 虚拟机上做/data目录映射到你的宿主机上。
+注意：这里的 -v /data/redis:/data，需要你打开 Virtual Box，在 default 虚拟机上做/data目录映射到你的宿主机上。
 
