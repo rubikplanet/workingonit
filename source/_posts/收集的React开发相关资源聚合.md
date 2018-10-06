@@ -1,5 +1,5 @@
 ---
-title: 收集的React开发相关资源
+title: 收集的React开发相关资源聚合
 date: 2018-10-06 20:37:28
 categories:
 - 开发资源

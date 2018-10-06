@@ -88,3 +88,8 @@ feed: # RSS订阅插件
   limit: 0
 
 plugins: hexo-generate-feed
+
+##  自定义广告
+advert:
+  飞猪: https://gtms02.alicdn.com/tps/i2/TB1t5YMIpXXXXXhXXXXQO4D5VXX-440-180.jpg || https://s.click.taobao.com/fy0KnLw
+  爱淘宝: https://gw.alicdn.com/tfs/TB1QB.ag6ihSKJjy0FiXXcuiFXa-440-180.jpg || https://s.click.taobao.com/hocJnLw
