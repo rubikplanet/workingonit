@@ -1,5 +1,9 @@
 ---
 title: 在Windonws7上使用DockerToolbox
+categories:
+- 容器技术
+tags:
+- Docker
 ---
 在 Windows 7 上使用 Docker Toolbox 运行 Docker 本地环境。
 

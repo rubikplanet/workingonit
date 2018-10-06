@@ -1,7 +1,11 @@
 ---
 title: VirtualBox虚拟机CentOS7安装增强工具
 date: 2018-10-05 21:32:38
+categories:
+- 虚拟机技术
 tags:
+- VirtualBox
+- CentOS
 ---
 
 1. 选择VirtualBox的“设备”->“安装增强工具…”
